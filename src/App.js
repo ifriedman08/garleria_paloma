@@ -1,14 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 
 import { pieces } from "./data";
 import Tile from "./components/tile";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row, Form } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import _ from "lodash";
 
 function App() {
-  const groupedPieces = _.groupBy(pieces, p => p.category);
+  const [searchTerm, setSearchTerm] = useState("");
+  const groupedPieces = _.groupBy(
+    pieces.filter(
+      p =>
+        p.artist.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        p.title.toLowerCase().includes(searchTerm.toLowerCase())
+    ),
+    p => p.category
+  );
   return (
     <>
       <h1 style={{ textAlign: "center", paddingTop: 20 }}>
@@ -22,6 +30,15 @@ function App() {
           <em>galeriapaloma@aol.com</em>
         </a>
       </p>
+      <Form style={{ width: "100%", display: "flex" }}>
+        <Form.Control
+          onChange={e => setSearchTerm(e.target.value)}
+          placeholder="Search for title or artist"
+          size="lg"
+          type="text"
+          style={{ margin: 12 }}
+        />
+      </Form>
       <Container fluid>
         {Object.keys(groupedPieces)
           .sort((c1, c2) => c1.localeCompare(c2))
