@@ -156,7 +156,7 @@ export const pieces: IPieceData[] = [
     priceRangeKey: 4
   },
   {
-    title: "Corazon",
+    title: "Corazón",
     width: 39,
     height: 27.5,
     artist: MariaJesusBurgosAlonso,
