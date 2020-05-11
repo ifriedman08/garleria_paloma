@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8b63e7bcb57294a9bbdffc3c9019c91c",
+    "revision": "1e8641974f143add7daa86bfb650874d",
     "url": "/garleria_paloma/index.html"
   },
   {
