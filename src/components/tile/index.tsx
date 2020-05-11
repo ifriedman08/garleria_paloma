@@ -27,7 +27,7 @@ const Tile: FC<IPieceData> = ({
         <Card.Img
           onClick={() => setZoomVisibility(true)}
           variant="top"
-          src={`/inventory/${filename}`}
+          src={`/galeria_paloma/inventory/${filename}`}
           width="100%"
           height="250rem"
           style={{ objectFit: "cover", cursor: "pointer" }}
@@ -56,7 +56,7 @@ const Tile: FC<IPieceData> = ({
           onHide={() => setZoomVisibility(false)}
         >
           <Modal.Body style={{ textAlign: "center" }}>
-            <Image src={`/inventory/${filename}`} fluid />
+            <Image src={`/galeria_paloma/inventory/${filename}`} fluid />
           </Modal.Body>
         </Modal>
       )}
