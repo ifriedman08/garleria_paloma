@@ -230,7 +230,7 @@ export const pieces: IPieceData[] = [
     notes: "Frame Included"
   },
   {
-    title: "Gandia, Valencia",
+    title: "Gandía, Valencia",
     width: 9.5,
     height: 13,
     category: Antique,
@@ -499,7 +499,7 @@ export const pieces: IPieceData[] = [
     priceRangeKey: 2
   },
   {
-    title: "Malecon de Cien Fuegos",
+    title: "Malecón de Cien Fuegos",
     width: 16,
     height: 16,
     artist: RafaelRodolfo,
