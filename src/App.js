@@ -14,7 +14,7 @@ function App() {
       <h1 style={{ textAlign: "center", paddingTop: 20 }}>
         Welcome to
         <br />
-        Galeria Paloma
+        Galería Paloma
       </h1>
       <p style={{ textAlign: "center", paddingBottom: 20 }}>
         Email us with inquiries at{" "}
