@@ -111,7 +111,7 @@ export const pieces: IPieceData[] = [
     priceRangeKey: 2
   },
   {
-    title: "Cinco Arboles",
+    title: "Cinco Árboles",
     width: 51,
     height: 36.5,
     artist: Josefina,
@@ -463,7 +463,7 @@ export const pieces: IPieceData[] = [
     priceRangeKey: 4
   },
   {
-    title: "Seis Arboles",
+    title: "Seis Árboles",
     width: 32,
     height: 40,
     artist: Josefina,
