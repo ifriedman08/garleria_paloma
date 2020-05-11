@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/garleria_paloma/static/css/main.360809f9.chunk.css",
-    "main.js": "/garleria_paloma/static/js/main.1cb6e47f.chunk.js",
-    "main.js.map": "/garleria_paloma/static/js/main.1cb6e47f.chunk.js.map",
+    "main.js": "/garleria_paloma/static/js/main.61282459.chunk.js",
+    "main.js.map": "/garleria_paloma/static/js/main.61282459.chunk.js.map",
     "runtime-main.js": "/garleria_paloma/static/js/runtime-main.631c3ceb.js",
     "runtime-main.js.map": "/garleria_paloma/static/js/runtime-main.631c3ceb.js.map",
     "static/css/2.de424728.chunk.css": "/garleria_paloma/static/css/2.de424728.chunk.css",
     "static/js/2.2a25a99b.chunk.js": "/garleria_paloma/static/js/2.2a25a99b.chunk.js",
     "static/js/2.2a25a99b.chunk.js.map": "/garleria_paloma/static/js/2.2a25a99b.chunk.js.map",
     "index.html": "/garleria_paloma/index.html",
-    "precache-manifest.e680bb6608cce051cca74305e42c124a.js": "/garleria_paloma/precache-manifest.e680bb6608cce051cca74305e42c124a.js",
+    "precache-manifest.b9d1bbca9cee21b4d6f8fcf0189c51e9.js": "/garleria_paloma/precache-manifest.b9d1bbca9cee21b4d6f8fcf0189c51e9.js",
     "service-worker.js": "/garleria_paloma/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/garleria_paloma/static/css/2.de424728.chunk.css.map",
     "static/css/main.360809f9.chunk.css.map": "/garleria_paloma/static/css/main.360809f9.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.de424728.chunk.css",
     "static/js/2.2a25a99b.chunk.js",
     "static/css/main.360809f9.chunk.css",
-    "static/js/main.1cb6e47f.chunk.js"
+    "static/js/main.61282459.chunk.js"
   ]
 }

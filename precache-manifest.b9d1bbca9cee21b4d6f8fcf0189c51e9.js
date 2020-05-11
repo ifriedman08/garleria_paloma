@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1e8641974f143add7daa86bfb650874d",
+    "revision": "32ce64634203359f08001544477efe46",
     "url": "/garleria_paloma/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/garleria_paloma/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "51709128e657cb7c8656",
+    "revision": "e4426b6f8831c022c0c3",
     "url": "/garleria_paloma/static/css/main.360809f9.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/garleria_paloma/static/js/2.2a25a99b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "51709128e657cb7c8656",
-    "url": "/garleria_paloma/static/js/main.1cb6e47f.chunk.js"
+    "revision": "e4426b6f8831c022c0c3",
+    "url": "/garleria_paloma/static/js/main.61282459.chunk.js"
   },
   {
     "revision": "b1d1edaf65573c8562af",
