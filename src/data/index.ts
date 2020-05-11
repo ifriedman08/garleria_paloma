@@ -544,6 +544,15 @@ export const pieces: IPieceData[] = [
     filename: "ropa.jpg"
   },
   {
+    title: "Naranja y Rojo",
+    artist: ReginaRubioDeUlloa,
+    width: 39.25,
+    height: 28.75,
+    category: Abstract,
+    filename: "naranja.jpg",
+    priceRangeKey: 2
+  },
+  {
     title: "Puente (Partes 1 y 2)",
     width: 76.5,
     height: 51,
