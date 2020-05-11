@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/garleria_paloma/static/css/main.360809f9.chunk.css",
-    "main.js": "/garleria_paloma/static/js/main.61282459.chunk.js",
-    "main.js.map": "/garleria_paloma/static/js/main.61282459.chunk.js.map",
-    "runtime-main.js": "/garleria_paloma/static/js/runtime-main.631c3ceb.js",
-    "runtime-main.js.map": "/garleria_paloma/static/js/runtime-main.631c3ceb.js.map",
-    "static/css/2.de424728.chunk.css": "/garleria_paloma/static/css/2.de424728.chunk.css",
-    "static/js/2.2a25a99b.chunk.js": "/garleria_paloma/static/js/2.2a25a99b.chunk.js",
-    "static/js/2.2a25a99b.chunk.js.map": "/garleria_paloma/static/js/2.2a25a99b.chunk.js.map",
-    "index.html": "/garleria_paloma/index.html",
-    "precache-manifest.b9d1bbca9cee21b4d6f8fcf0189c51e9.js": "/garleria_paloma/precache-manifest.b9d1bbca9cee21b4d6f8fcf0189c51e9.js",
-    "service-worker.js": "/garleria_paloma/service-worker.js",
-    "static/css/2.de424728.chunk.css.map": "/garleria_paloma/static/css/2.de424728.chunk.css.map",
-    "static/css/main.360809f9.chunk.css.map": "/garleria_paloma/static/css/main.360809f9.chunk.css.map",
-    "static/js/2.2a25a99b.chunk.js.LICENSE.txt": "/garleria_paloma/static/js/2.2a25a99b.chunk.js.LICENSE.txt"
+    "main.css": "/galeria_paloma/static/css/main.360809f9.chunk.css",
+    "main.js": "/galeria_paloma/static/js/main.6b8868c6.chunk.js",
+    "main.js.map": "/galeria_paloma/static/js/main.6b8868c6.chunk.js.map",
+    "runtime-main.js": "/galeria_paloma/static/js/runtime-main.192ec273.js",
+    "runtime-main.js.map": "/galeria_paloma/static/js/runtime-main.192ec273.js.map",
+    "static/css/2.de424728.chunk.css": "/galeria_paloma/static/css/2.de424728.chunk.css",
+    "static/js/2.2a25a99b.chunk.js": "/galeria_paloma/static/js/2.2a25a99b.chunk.js",
+    "static/js/2.2a25a99b.chunk.js.map": "/galeria_paloma/static/js/2.2a25a99b.chunk.js.map",
+    "index.html": "/galeria_paloma/index.html",
+    "precache-manifest.157d93fb6bfbfa4080e3eb5c9dba6d9e.js": "/galeria_paloma/precache-manifest.157d93fb6bfbfa4080e3eb5c9dba6d9e.js",
+    "service-worker.js": "/galeria_paloma/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/galeria_paloma/static/css/2.de424728.chunk.css.map",
+    "static/css/main.360809f9.chunk.css.map": "/galeria_paloma/static/css/main.360809f9.chunk.css.map",
+    "static/js/2.2a25a99b.chunk.js.LICENSE.txt": "/galeria_paloma/static/js/2.2a25a99b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.631c3ceb.js",
+    "static/js/runtime-main.192ec273.js",
     "static/css/2.de424728.chunk.css",
     "static/js/2.2a25a99b.chunk.js",
     "static/css/main.360809f9.chunk.css",
-    "static/js/main.61282459.chunk.js"
+    "static/js/main.6b8868c6.chunk.js"
   ]
 }
