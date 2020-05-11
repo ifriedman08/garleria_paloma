@@ -12,7 +12,9 @@ function App() {
   return (
     <>
       <h1 style={{ textAlign: "center", paddingTop: 20 }}>
-        Welcome to Galeria Paloma
+        Welcome to
+        <br />
+        Galeria Paloma
       </h1>
       <p style={{ textAlign: "center", paddingBottom: 20 }}>
         Email us with inquiries at{" "}
@@ -37,7 +39,12 @@ function App() {
                 </h2>
                 <Row style={{ marginBottom: 20 }}>
                   {groupedPieces[category]
-                    .sort((p1, p2) => p1.title.localeCompare(p2.title))
+                    .sort((p1, p2) => {
+                      if (p1.artist === p2.artist) {
+                        return p1.title.localeCompare(p2.title);
+                      }
+                      return p1.artist.localeCompare(p2.artist);
+                    })
                     .map(pieceData => (
                       <Col
                         key={pieceData.title}
