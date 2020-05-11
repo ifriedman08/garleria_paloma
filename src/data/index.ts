@@ -535,6 +535,15 @@ export const pieces: IPieceData[] = [
     priceRangeKey: 1
   },
   {
+    title: "Ropa Tendida",
+    artist: ReginaRubioDeUlloa,
+    width: 28.75,
+    height: 39.25,
+    category: Abstract,
+    priceRangeKey: 2,
+    filename: "ropa.jpg"
+  },
+  {
     title: "Puente (Partes 1 y 2)",
     width: 76.5,
     height: 51,
