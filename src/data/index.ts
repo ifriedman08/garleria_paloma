@@ -13,7 +13,7 @@ const Nude = "Nude";
 const Contemporary = "Contemporary";
 const Abstract = "Abstract";
 const Rendition = "Rendition";
-const Animal = "Animal";
+const Animal = "Animals";
 
 export const priceRangeMap: {
   [index: number]: { low: number; high?: number };
@@ -129,7 +129,7 @@ export const pieces: IPieceData[] = [
     priceRangeKey: 1
   },
   {
-    title: "Copas Gris",
+    title: "Copas Grises",
     width: 27.5,
     height: 39,
     artist: MariaJesusBurgosAlonso,
@@ -147,7 +147,7 @@ export const pieces: IPieceData[] = [
     priceRangeKey: 2
   },
   {
-    title: "Copas Verde",
+    title: "Copas Verdes",
     width: 39,
     height: 27.5,
     artist: MariaJesusBurgosAlonso,
@@ -253,11 +253,11 @@ export const pieces: IPieceData[] = [
     height: 31,
     artist: RafaelRodolfo,
     filename: "havana.jpg",
-    category: Antique,
+    category: Contemporary,
     priceRangeKey: 5
   },
   {
-    title: "Almeria",
+    title: "Almería",
     width: 28.75,
     height: 19.5,
     artist: GregorioBueno,
@@ -293,13 +293,13 @@ export const pieces: IPieceData[] = [
     priceRangeKey: 6
   },
   {
-    title: "Llovia en Madrid",
+    title: "Llovía en Madrid",
     width: 18.5,
     height: 22,
     artist: AnitaSternfield,
     filename: "madrid.jpg",
     category: Contemporary,
-    priceRangeKey: 1
+    priceRangeKey: 3
   },
   {
     title: "Menina con Princesa",
@@ -533,6 +533,15 @@ export const pieces: IPieceData[] = [
     filename: "tula.jpg",
     category: Animal,
     priceRangeKey: 1
+  },
+  {
+    title: "Puente (Partes 1 y 2)",
+    width: 76.5,
+    height: 51,
+    artist: ReginaRubioDeUlloa,
+    filename: "puente.jpg",
+    category: Abstract,
+    priceRangeKey: 6
   },
   {
     title: "Triangulos Rosas",
