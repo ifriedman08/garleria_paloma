@@ -3,8 +3,6 @@ import React, { FC, useState } from "react";
 import { Card, Image, Modal } from "react-bootstrap";
 import { IPieceData } from "./../../data";
 
-import { priceRangeMap } from "../../data";
-
 const Tile: FC<IPieceData> = ({
   title,
   filename,
@@ -12,14 +10,9 @@ const Tile: FC<IPieceData> = ({
   width,
   notes,
   artist,
-  priceRangeKey
+  price
 }) => {
   const [zoomVisibility, setZoomVisibility] = useState<boolean>(false);
-
-  const priceRange = priceRangeMap[priceRangeKey];
-  const priceLine = `$${priceRange.low} ${
-    priceRange.high ? ` - $${priceRange.high}` : "+"
-  }`;
 
   return (
     <>
@@ -45,7 +38,7 @@ const Tile: FC<IPieceData> = ({
             <br />
             {!!notes && <>({notes})</>}
           </Card.Text>
-          <Card.Text style={{ textAlign: "right" }}>{priceLine}</Card.Text>
+          <Card.Text style={{ textAlign: "right" }}>$ {price}</Card.Text>
         </Card.Body>
       </Card>
       {zoomVisibility && (
