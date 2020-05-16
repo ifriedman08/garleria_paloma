@@ -80,7 +80,7 @@ export const pieces: IPieceData[] = [
     artist: "Rafael Baquerizo",
     filename: "burro.jpg",
     category: Animal,
-    price: 250
+    price: 400
   },
   {
     title: "Cinco Árboles",
@@ -450,7 +450,7 @@ export const pieces: IPieceData[] = [
     artist: RafaelBaquerizo,
     filename: "vaca.jpg",
     category: Animal,
-    price: 120
+    price: 650
   },
   {
     title: "Zebra 1",
