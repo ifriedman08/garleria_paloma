@@ -173,13 +173,40 @@ export const pieces: IPieceData[] = [
     price: 1500
   },
   {
+    title: "Flores Blancas",
+    width: 51,
+    height: 36.75,
+    artist: Josefina,
+    filename: "flores-blancas.jpg",
+    category: Abstract,
+    price: 300
+  },
+  {
+    title: "Bailarinas",
+    width: 51,
+    height: 36.75,
+    artist: Josefina,
+    filename: "bailarinas.jpg",
+    category: Abstract,
+    price: 300
+  },
+  {
+    title: "Añil",
+    width: 35.25,
+    height: 45.75,
+    artist: MariaJesusBurgosAlonso,
+    filename: "anil.jpg",
+    category: Abstract,
+    price: 1500
+  },
+  {
     title: "Flores Rosas",
     width: 51,
     height: 36.75,
     artist: Josefina,
     filename: "flores-rosas.jpg",
     category: Abstract,
-    price: 250
+    price: 300
   },
   {
     title: "Gallina",
