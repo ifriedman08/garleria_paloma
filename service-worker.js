@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/galeria_paloma/precache-manifest.95a3408bfd63ce8118cf6624c67f388f.js"
+  "/galeria_paloma/precache-manifest.fcf23727cd759c24d1d1115452d59b61.js"
 );
 
 self.addEventListener('message', (event) => {
