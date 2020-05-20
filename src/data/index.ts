@@ -1,7 +1,7 @@
 const RafaelBaquerizo = "Rafael Baquerizo";
 const MariaJesusBurgosAlonso = "Maria Jesus Burgos Alonso";
 const AndresCatala = "Andres Catala";
-const RafaelRodolfo = "Rafael Rodolfo";
+const RafaelRodulfo = "Rafael Rodulfo";
 const GregorioBueno = "Gregorio Bueno";
 const ReginaRubioDeUlloa = "Regina Rubio de Ulloa";
 const Josefina = "Josefina Fernandez Dopico";
@@ -35,7 +35,7 @@ export const pieces: IPieceData[] = [
     notes: "Frame Included",
     filename: "ajo.jpg",
     category: Contemporary,
-    price: 120
+    price: 120,
   },
   {
     title: "Arcos",
@@ -44,7 +44,7 @@ export const pieces: IPieceData[] = [
     artist: MariaJesusBurgosAlonso,
     filename: "arcos.jpg",
     category: Abstract,
-    price: 500
+    price: 500,
   },
   {
     title: "Bosque",
@@ -53,7 +53,7 @@ export const pieces: IPieceData[] = [
     category: Antique,
     artist: AndresCatala,
     filename: "bosque.jpg",
-    price: 120
+    price: 120,
   },
   {
     title: "Burdeos",
@@ -62,7 +62,7 @@ export const pieces: IPieceData[] = [
     artist: "Maria Jesus Burgos",
     filename: "burdeos.jpg",
     category: Abstract,
-    price: 250
+    price: 250,
   },
   {
     title: "Burro",
@@ -71,7 +71,7 @@ export const pieces: IPieceData[] = [
     artist: "Rafael Baquerizo",
     filename: "burro-1.jpg",
     category: Animal,
-    price: 120
+    price: 120,
   },
   {
     title: "Elmer",
@@ -80,7 +80,7 @@ export const pieces: IPieceData[] = [
     artist: "Rafael Baquerizo",
     filename: "burro.jpg",
     category: Animal,
-    price: 400
+    price: 400,
   },
   {
     title: "Cinco Árboles",
@@ -89,16 +89,16 @@ export const pieces: IPieceData[] = [
     artist: Josefina,
     filename: "cinco-arboles.jpg",
     category: Abstract,
-    price: 350
+    price: 350,
   },
   {
     title: "Coches de Caballo",
     width: 27.5,
     height: 19.5,
-    artist: RafaelRodolfo,
+    artist: RafaelRodulfo,
     filename: "coches.jpg",
     category: Contemporary,
-    price: 120
+    price: 120,
   },
   {
     title: "Copas Grises",
@@ -107,7 +107,34 @@ export const pieces: IPieceData[] = [
     artist: MariaJesusBurgosAlonso,
     filename: "copa-gris.jpg",
     category: Abstract,
-    price: 500
+    price: 500,
+  },
+  {
+    title: "Pastel",
+    width: 31.5,
+    height: 39,
+    artist: MariaJesusBurgosAlonso,
+    filename: "pastel.jpg",
+    category: Abstract,
+    price: 500,
+  },
+  {
+    title: "Turquesa y Naranja",
+    width: 25.5,
+    height: 19.5,
+    artist: MariaJesusBurgosAlonso,
+    filename: "turquesa.jpg",
+    category: Abstract,
+    price: 250,
+  },
+  {
+    title: "Copas Naranjas",
+    width: 28,
+    height: 20,
+    artist: MariaJesusBurgosAlonso,
+    filename: "copas-naranjas.jpg",
+    category: Abstract,
+    price: 250,
   },
   {
     title: "Copa Morada",
@@ -116,7 +143,7 @@ export const pieces: IPieceData[] = [
     artist: "Regina Rubio de Ulloa",
     filename: "copa-morada.jpg",
     category: Abstract,
-    price: 250
+    price: 250,
   },
   {
     title: "Copas Verdes",
@@ -125,7 +152,7 @@ export const pieces: IPieceData[] = [
     artist: MariaJesusBurgosAlonso,
     filename: "copas-verde.jpg",
     category: Abstract,
-    price: 500
+    price: 500,
   },
   {
     title: "Corazón",
@@ -134,7 +161,7 @@ export const pieces: IPieceData[] = [
     artist: MariaJesusBurgosAlonso,
     filename: "corazon.jpg",
     category: Abstract,
-    price: 500
+    price: 500,
   },
   {
     title: "Corriente",
@@ -143,25 +170,25 @@ export const pieces: IPieceData[] = [
     category: Antique,
     artist: AndresCatala,
     filename: "corriente.jpg",
-    price: 120
+    price: 120,
   },
   {
     title: "Mulata Desnuda",
     width: 19.5,
     height: 27.5,
-    artist: RafaelRodolfo,
+    artist: RafaelRodulfo,
     filename: "desnuda.jpg",
     category: Contemporary,
-    price: 120
+    price: 120,
   },
   {
     title: "Desnudo",
     width: 20,
     height: 20,
-    artist: RafaelRodolfo,
+    artist: RafaelRodulfo,
     filename: "desnudo.jpg",
     category: Contemporary,
-    price: 250
+    price: 250,
   },
   {
     title: "Flores Rojas",
@@ -170,7 +197,7 @@ export const pieces: IPieceData[] = [
     artist: MariaJesusBurgosAlonso,
     filename: "flores-rojas.jpg",
     category: Abstract,
-    price: 1500
+    price: 1500,
   },
   {
     title: "Flores Blancas",
@@ -179,7 +206,7 @@ export const pieces: IPieceData[] = [
     artist: Josefina,
     filename: "flores-blancas.jpg",
     category: Abstract,
-    price: 300
+    price: 300,
   },
   {
     title: "Bailarinas",
@@ -188,7 +215,7 @@ export const pieces: IPieceData[] = [
     artist: Josefina,
     filename: "bailarinas.jpg",
     category: Abstract,
-    price: 300
+    price: 300,
   },
   {
     title: "Añil",
@@ -197,7 +224,7 @@ export const pieces: IPieceData[] = [
     artist: MariaJesusBurgosAlonso,
     filename: "anil.jpg",
     category: Abstract,
-    price: 1500
+    price: 1500,
   },
   {
     title: "Flores Rosas",
@@ -206,7 +233,7 @@ export const pieces: IPieceData[] = [
     artist: Josefina,
     filename: "flores-rosas.jpg",
     category: Abstract,
-    price: 300
+    price: 300,
   },
   {
     title: "Gallina",
@@ -216,7 +243,7 @@ export const pieces: IPieceData[] = [
     filename: "gallina.jpg",
     category: Animal,
     notes: "Frame Included",
-    price: 750
+    price: 750,
   },
   {
     title: "Gallo",
@@ -226,7 +253,7 @@ export const pieces: IPieceData[] = [
     filename: "gallo.jpg",
     category: Animal,
     price: 750,
-    notes: "Frame Included"
+    notes: "Frame Included",
   },
   {
     title: "Gandía, Valencia",
@@ -235,7 +262,7 @@ export const pieces: IPieceData[] = [
     category: Antique,
     artist: AndresCatala,
     filename: "gandia.jpg",
-    price: 120
+    price: 120,
   },
   {
     title: "Granadas",
@@ -244,16 +271,16 @@ export const pieces: IPieceData[] = [
     category: Antique,
     artist: AndresCatala,
     filename: "granada.jpg",
-    price: 120
+    price: 120,
   },
   {
     title: "Havana Vieja",
     width: 21,
     height: 31,
-    artist: RafaelRodolfo,
+    artist: RafaelRodulfo,
     filename: "havana.jpg",
     category: Contemporary,
-    price: 750
+    price: 750,
   },
   {
     title: "Almería",
@@ -262,16 +289,16 @@ export const pieces: IPieceData[] = [
     artist: GregorioBueno,
     filename: "hombre.jpg",
     category: Nude,
-    price: 250
+    price: 250,
   },
   {
     title: "Mulata y Hombro",
     width: 19.5,
     height: 27.5,
-    artist: RafaelRodolfo,
+    artist: RafaelRodulfo,
     filename: "hombro.jpg",
     category: Contemporary,
-    price: 250
+    price: 250,
   },
   {
     title: "Labrador",
@@ -280,7 +307,7 @@ export const pieces: IPieceData[] = [
     artist: RafaelBaquerizo,
     filename: "labrador.jpg",
     category: Animal,
-    price: 120
+    price: 120,
   },
   {
     title: "Lunares Rojos",
@@ -289,7 +316,7 @@ export const pieces: IPieceData[] = [
     artist: MariaJesusBurgosAlonso,
     filename: "lunares-rojos.jpg",
     category: Abstract,
-    price: 1500
+    price: 1500,
   },
   {
     title: "Llovía en Madrid",
@@ -298,7 +325,7 @@ export const pieces: IPieceData[] = [
     artist: AnitaSternfield,
     filename: "madrid.jpg",
     category: Contemporary,
-    price: 350
+    price: 350,
   },
   {
     title: "Menina con Princesa",
@@ -307,7 +334,7 @@ export const pieces: IPieceData[] = [
     artist: Josefina,
     filename: "menina-con-princesa.jpg",
     category: Rendition,
-    price: 750
+    price: 750,
   },
   {
     title: "Menina Grande",
@@ -316,7 +343,7 @@ export const pieces: IPieceData[] = [
     artist: MariaJesusBurgosAlonso,
     filename: "menina-grande.jpg",
     category: Rendition,
-    price: 3500
+    price: 3500,
   },
   {
     title: "Menina Naranja",
@@ -325,7 +352,7 @@ export const pieces: IPieceData[] = [
     artist: Josefina,
     filename: "menina-naranja.jpg",
     category: Rendition,
-    price: 750
+    price: 750,
   },
   {
     title: "Montaña Gris",
@@ -335,16 +362,16 @@ export const pieces: IPieceData[] = [
     artist: AndresCatala,
     filename: "montana.jpg",
     notes: "Frame Included",
-    price: 120
+    price: 120,
   },
   {
     title: "Monte Morado",
     width: 15,
     height: 18,
-    artist: RafaelRodolfo,
+    artist: RafaelRodulfo,
     filename: "monte-morado.jpg",
     category: Contemporary,
-    price: 250
+    price: 250,
   },
   {
     title: "Monte Rojo",
@@ -354,7 +381,7 @@ export const pieces: IPieceData[] = [
     artist: AndresCatala,
     filename: "monte-rojo.jpg",
     notes: "Frame Included",
-    price: 120
+    price: 120,
   },
   {
     title: "Negro (Partes 1 y 2)",
@@ -363,7 +390,7 @@ export const pieces: IPieceData[] = [
     artist: ReginaRubioDeUlloa,
     filename: "negro.jpg",
     category: Abstract,
-    price: 1000
+    price: 1000,
   },
   {
     title: "Oca",
@@ -373,7 +400,7 @@ export const pieces: IPieceData[] = [
     filename: "oca.jpg",
     notes: "Frame Included",
     category: Animal,
-    price: 250
+    price: 250,
   },
   {
     title: "Olga",
@@ -382,7 +409,7 @@ export const pieces: IPieceData[] = [
     artist: Olga,
     filename: "olga.jpg",
     category: Contemporary,
-    price: 120
+    price: 120,
   },
   {
     title: "Otoño",
@@ -392,7 +419,7 @@ export const pieces: IPieceData[] = [
     artist: AndresCatala,
     filename: "otono.jpg",
     notes: "Frame Included",
-    price: 120
+    price: 120,
   },
   {
     title: "Oveja",
@@ -402,7 +429,7 @@ export const pieces: IPieceData[] = [
     filename: "oveja.jpg",
     notes: "Frame Included",
     category: Animal,
-    price: 750
+    price: 750,
   },
   {
     title: "Pase de Pecho",
@@ -411,7 +438,7 @@ export const pieces: IPieceData[] = [
     artist: GregorioBueno,
     filename: "pase-de-pecho.jpg",
     category: Contemporary,
-    price: 250
+    price: 250,
   },
   {
     title: "Picador",
@@ -420,7 +447,7 @@ export const pieces: IPieceData[] = [
     artist: GregorioBueno,
     filename: "picador.jpg",
     category: Contemporary,
-    price: 250
+    price: 250,
   },
   {
     title: "Piedras Azules",
@@ -430,7 +457,7 @@ export const pieces: IPieceData[] = [
     artist: AndresCatala,
     filename: "piedras.jpg",
     notes: "Frame Included",
-    price: 120
+    price: 120,
   },
   {
     title: "Primera Mujer",
@@ -440,7 +467,7 @@ export const pieces: IPieceData[] = [
     filename: "primera-mujer.jpg",
     notes: "Frame Included",
     category: Nude,
-    price: 250
+    price: 250,
   },
   {
     title: "Rio",
@@ -450,7 +477,7 @@ export const pieces: IPieceData[] = [
     artist: AndresCatala,
     filename: "rio.jpg",
     notes: "Frame Included",
-    price: 120
+    price: 120,
   },
   {
     title: "Rosas",
@@ -459,7 +486,7 @@ export const pieces: IPieceData[] = [
     artist: MariaJesusBurgosAlonso,
     filename: "rosas.jpg",
     category: Abstract,
-    price: 500
+    price: 500,
   },
   {
     title: "Seis Árboles",
@@ -468,7 +495,7 @@ export const pieces: IPieceData[] = [
     artist: Josefina,
     filename: "seis-arboles.jpg",
     category: Abstract,
-    price: 350
+    price: 350,
   },
   {
     title: "Vaca",
@@ -477,7 +504,7 @@ export const pieces: IPieceData[] = [
     artist: RafaelBaquerizo,
     filename: "vaca.jpg",
     category: Animal,
-    price: 650
+    price: 650,
   },
   {
     title: "Zebra 1",
@@ -486,7 +513,7 @@ export const pieces: IPieceData[] = [
     artist: RafaelBaquerizo,
     filename: "zebra-1.jpg",
     category: Animal,
-    price: 250
+    price: 250,
   },
   {
     title: "Zebra 2",
@@ -495,34 +522,34 @@ export const pieces: IPieceData[] = [
     artist: RafaelBaquerizo,
     filename: "zebra-2.jpg",
     category: Animal,
-    price: 250
+    price: 250,
   },
   {
     title: "Malecón de Cien Fuegos",
     width: 16,
     height: 16,
-    artist: RafaelRodolfo,
+    artist: RafaelRodulfo,
     filename: "malecon.jpg",
     category: Contemporary,
-    price: 250
+    price: 250,
   },
   {
     title: "El Boulevard",
     width: 19.5,
     height: 27.5,
-    artist: RafaelRodolfo,
+    artist: RafaelRodulfo,
     filename: "boulevard.jpg",
     category: Contemporary,
-    price: 120
+    price: 120,
   },
   {
     title: "Bosque Encantado",
     width: 33,
     height: 26,
-    artist: RafaelRodolfo,
+    artist: RafaelRodulfo,
     filename: "bosque-encantado.jpg",
     category: Contemporary,
-    price: 250
+    price: 250,
   },
   {
     title: "Tula",
@@ -531,7 +558,7 @@ export const pieces: IPieceData[] = [
     artist: RafaelBaquerizo,
     filename: "tula.jpg",
     category: Animal,
-    price: 120
+    price: 120,
   },
   {
     title: "Ropa Tendida",
@@ -540,7 +567,7 @@ export const pieces: IPieceData[] = [
     height: 39.25,
     category: Abstract,
     price: 250,
-    filename: "ropa.jpg"
+    filename: "ropa.jpg",
   },
   {
     title: "Naranja y Rojo",
@@ -549,7 +576,7 @@ export const pieces: IPieceData[] = [
     height: 28.75,
     category: Abstract,
     filename: "naranja.jpg",
-    price: 250
+    price: 250,
   },
   {
     title: "Puente (Partes 1 y 2)",
@@ -558,7 +585,7 @@ export const pieces: IPieceData[] = [
     artist: ReginaRubioDeUlloa,
     filename: "puente.jpg",
     category: Abstract,
-    price: 1000
+    price: 1000,
   },
   {
     title: "Triangulos Rosas",
@@ -567,6 +594,6 @@ export const pieces: IPieceData[] = [
     artist: Josefina,
     filename: "triangulos.jpg",
     category: Abstract,
-    price: 500
-  }
+    price: 500,
+  },
 ];

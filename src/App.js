@@ -6,33 +6,43 @@ import Tile from "./components/tile";
 import { Col, Container, Row, Form } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import _ from "lodash";
+import FadeIn from "react-fade-in";
 
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
   const groupedPieces = _.groupBy(
     pieces.filter(
-      p =>
+      (p) =>
         p.artist.toLowerCase().includes(searchTerm.toLowerCase()) ||
         p.title.toLowerCase().includes(searchTerm.toLowerCase())
     ),
-    p => p.category
+    (p) => p.category
   );
   return (
     <>
-      <h1 style={{ textAlign: "center", paddingTop: 20 }}>
+      <h1
+        style={{
+          textAlign: "center",
+          paddingTop: 20,
+          fontWeight: "bold",
+        }}
+      >
         Welcome to
         <br />
         Galería Paloma
       </h1>
-      <p style={{ textAlign: "center", paddingBottom: 20 }}>
-        Email us with inquiries at{" "}
-        <a href="mailto:galeriapaloma@aol.com" style={{ color: "#222" }}>
-          <em>galeriapaloma@aol.com</em>
-        </a>
-      </p>
+      <FadeIn>
+        <h4 style={{ textAlign: "center", paddingBottom: 20 }}>
+          Email us with inquiries at
+          <br />
+          <a href="mailto:galeriapaloma@aol.com" style={{ color: "#222" }}>
+            <em>galeriapaloma@aol.com</em>
+          </a>
+        </h4>
+      </FadeIn>
       <Form style={{ width: "100%", display: "flex" }}>
         <Form.Control
-          onChange={e => setSearchTerm(e.target.value)}
+          onChange={(e) => setSearchTerm(e.target.value)}
           placeholder="Search for title or artist"
           size="lg"
           type="text"
@@ -42,14 +52,14 @@ function App() {
       <Container fluid>
         {Object.keys(groupedPieces)
           .sort((c1, c2) => c1.localeCompare(c2))
-          .map(category => {
+          .map((category) => {
             return (
               <div key={category}>
                 <h2
                   style={{
                     borderTop: "lightgrey 1px solid",
                     padding: 20,
-                    textAlign: "center"
+                    textAlign: "center",
                   }}
                 >
                   {category}
@@ -62,7 +72,7 @@ function App() {
                       }
                       return p1.artist.localeCompare(p2.artist);
                     })
-                    .map(pieceData => (
+                    .map((pieceData) => (
                       <Col
                         key={pieceData.title}
                         md={4}
