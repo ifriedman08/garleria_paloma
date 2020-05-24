@@ -24,6 +24,7 @@ export interface IPieceData {
   filename: string;
   category: string;
   price: number;
+  isSold?: boolean;
 }
 
 export const pieces: IPieceData[] = [
@@ -45,6 +46,7 @@ export const pieces: IPieceData[] = [
     filename: "arcos.jpg",
     category: Abstract,
     price: 500,
+    isSold: true,
   },
   {
     title: "Bosque",
@@ -207,6 +209,7 @@ export const pieces: IPieceData[] = [
     filename: "flores-blancas.jpg",
     category: Abstract,
     price: 300,
+    isSold: true,
   },
   {
     title: "Bailarinas",
@@ -234,6 +237,7 @@ export const pieces: IPieceData[] = [
     filename: "flores-rosas.jpg",
     category: Abstract,
     price: 300,
+    isSold: true,
   },
   {
     title: "Gallina",
@@ -272,6 +276,7 @@ export const pieces: IPieceData[] = [
     artist: AndresCatala,
     filename: "granada.jpg",
     price: 120,
+    isSold: true,
   },
   {
     title: "Havana Vieja",
@@ -308,6 +313,7 @@ export const pieces: IPieceData[] = [
     filename: "labrador.jpg",
     category: Animal,
     price: 120,
+    isSold: true,
   },
   {
     title: "Lunares Rojos",

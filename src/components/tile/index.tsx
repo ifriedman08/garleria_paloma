@@ -1,6 +1,6 @@
 import React, { FC, useState } from "react";
 
-import { Card, Image, Modal } from "react-bootstrap";
+import { Badge, Card, Image, Modal } from "react-bootstrap";
 import { IPieceData } from "./../../data";
 
 const Tile: FC<IPieceData> = ({
@@ -10,7 +10,8 @@ const Tile: FC<IPieceData> = ({
   width,
   notes,
   artist,
-  price
+  price,
+  isSold,
 }) => {
   const [zoomVisibility, setZoomVisibility] = useState<boolean>(false);
 
@@ -38,7 +39,9 @@ const Tile: FC<IPieceData> = ({
             <br />
             {!!notes && <>({notes})</>}
           </Card.Text>
-          <Card.Text style={{ textAlign: "right" }}>$ {price}</Card.Text>
+          <Card.Text style={{ textAlign: "right" }}>
+            {!isSold ? `$ ${price}` : <Badge variant="danger">VENDIDO</Badge>}
+          </Card.Text>
         </Card.Body>
       </Card>
       {zoomVisibility && (
