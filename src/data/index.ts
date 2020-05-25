@@ -297,13 +297,13 @@ export const pieces: IPieceData[] = [
     price: 250,
   },
   {
-    title: "Mulata y Hombro",
+    title: "Hombro de Mulata",
     width: 19.5,
     height: 27.5,
     artist: RafaelRodulfo,
     filename: "hombro.jpg",
     category: Contemporary,
-    price: 250,
+    price: 120,
   },
   {
     title: "Labrador",
@@ -416,6 +416,7 @@ export const pieces: IPieceData[] = [
     filename: "olga.jpg",
     category: Contemporary,
     price: 120,
+    isSold: true,
   },
   {
     title: "Otoño",
