@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/galeria_paloma/static/css/main.360809f9.chunk.css",
-    "main.js": "/galeria_paloma/static/js/main.d5dbd65f.chunk.js",
-    "main.js.map": "/galeria_paloma/static/js/main.d5dbd65f.chunk.js.map",
+    "main.js": "/galeria_paloma/static/js/main.47407a39.chunk.js",
+    "main.js.map": "/galeria_paloma/static/js/main.47407a39.chunk.js.map",
     "runtime-main.js": "/galeria_paloma/static/js/runtime-main.192ec273.js",
     "runtime-main.js.map": "/galeria_paloma/static/js/runtime-main.192ec273.js.map",
     "static/css/2.de424728.chunk.css": "/galeria_paloma/static/css/2.de424728.chunk.css",
     "static/js/2.755b2fa3.chunk.js": "/galeria_paloma/static/js/2.755b2fa3.chunk.js",
     "static/js/2.755b2fa3.chunk.js.map": "/galeria_paloma/static/js/2.755b2fa3.chunk.js.map",
     "index.html": "/galeria_paloma/index.html",
-    "precache-manifest.0b833b89aff87d111913649bf5c84524.js": "/galeria_paloma/precache-manifest.0b833b89aff87d111913649bf5c84524.js",
+    "precache-manifest.6f5a363692e16978657dda4691b69e30.js": "/galeria_paloma/precache-manifest.6f5a363692e16978657dda4691b69e30.js",
     "service-worker.js": "/galeria_paloma/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/galeria_paloma/static/css/2.de424728.chunk.css.map",
     "static/css/main.360809f9.chunk.css.map": "/galeria_paloma/static/css/main.360809f9.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.de424728.chunk.css",
     "static/js/2.755b2fa3.chunk.js",
     "static/css/main.360809f9.chunk.css",
-    "static/js/main.d5dbd65f.chunk.js"
+    "static/js/main.47407a39.chunk.js"
   ]
 }
