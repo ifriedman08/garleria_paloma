@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1c81c6449cb977f1d950806be090dba7",
+    "revision": "9a3296af50e85f369d7b4c0604c09a41",
     "url": "/galeria_paloma/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/galeria_paloma/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "6490a75684865495627a",
+    "revision": "e64594726ac6d2a83046",
     "url": "/galeria_paloma/static/css/main.360809f9.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/galeria_paloma/static/js/2.755b2fa3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6490a75684865495627a",
-    "url": "/galeria_paloma/static/js/main.47407a39.chunk.js"
+    "revision": "e64594726ac6d2a83046",
+    "url": "/galeria_paloma/static/js/main.5146a045.chunk.js"
   },
   {
     "revision": "e840dd18c6b5fb9a8fad",
