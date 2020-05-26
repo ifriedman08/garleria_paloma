@@ -173,6 +173,7 @@ export const pieces: IPieceData[] = [
     artist: AndresCatala,
     filename: "corriente.jpg",
     price: 120,
+    isSold: true,
   },
   {
     title: "Mulata Desnuda",
