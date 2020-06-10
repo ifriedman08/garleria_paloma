@@ -576,6 +576,7 @@ export const pieces: IPieceData[] = [
     category: Abstract,
     price: 250,
     filename: "ropa.jpg",
+    isSold: true,
   },
   {
     title: "Naranja y Rojo",
