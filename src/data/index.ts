@@ -146,6 +146,7 @@ export const pieces: IPieceData[] = [
     filename: "copa-morada.jpg",
     category: Abstract,
     price: 250,
+    isSold: true,
   },
   {
     title: "Copas Verdes",
