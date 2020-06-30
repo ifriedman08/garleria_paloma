@@ -587,6 +587,7 @@ export const pieces: IPieceData[] = [
     category: Abstract,
     filename: "naranja.jpg",
     price: 250,
+    isSold: true,
   },
   {
     title: "Puente (Partes 1 y 2)",
