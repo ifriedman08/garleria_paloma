@@ -221,6 +221,7 @@ export const pieces: IPieceData[] = [
     filename: "bailarinas.jpg",
     category: Abstract,
     price: 300,
+    isSold: true,
   },
   {
     title: "Añil",
@@ -288,6 +289,7 @@ export const pieces: IPieceData[] = [
     filename: "havana.jpg",
     category: Contemporary,
     price: 750,
+    isSold: true,
   },
   {
     title: "Almería",
@@ -559,6 +561,7 @@ export const pieces: IPieceData[] = [
     filename: "bosque-encantado.jpg",
     category: Contemporary,
     price: 250,
+    isSold: true,
   },
   {
     title: "Tula",
