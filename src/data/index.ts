@@ -345,6 +345,7 @@ export const pieces: IPieceData[] = [
     filename: "menina-con-princesa.jpg",
     category: Rendition,
     price: 750,
+    isSold: true,
   },
   {
     title: "Menina Grande",
@@ -469,6 +470,7 @@ export const pieces: IPieceData[] = [
     filename: "piedras.jpg",
     notes: "Frame Included",
     price: 120,
+    isSold: true,
   },
   {
     title: "Primera Mujer",
@@ -498,6 +500,7 @@ export const pieces: IPieceData[] = [
     filename: "rosas.jpg",
     category: Abstract,
     price: 500,
+    isSold: true,
   },
   {
     title: "Seis Árboles",
