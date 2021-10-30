@@ -119,6 +119,7 @@ export const pieces: IPieceData[] = [
     filename: "pastel.jpg",
     category: Abstract,
     price: 500,
+    isSold: true,
   },
   {
     title: "Turquesa y Naranja",
@@ -165,6 +166,7 @@ export const pieces: IPieceData[] = [
     filename: "corazon.jpg",
     category: Abstract,
     price: 500,
+    isSold: true,
   },
   {
     title: "Corriente",
@@ -603,6 +605,7 @@ export const pieces: IPieceData[] = [
     filename: "puente.jpg",
     category: Abstract,
     price: 1000,
+    isSold: true,
   },
   {
     title: "Triangulos Rosas",
